@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn1.iconfinder.com/data/icons/space-travel-flat/340/space_astronomy_universe_galaxy_alien_fiction_ufo_monster-1024.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Lemon&family=Noto+Sans+JP:wght@100&family=Noto+Sans+NKo&family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@0,100;1,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="todoApp">
+        <h2>To-Do List <img src="./images/todo.png" alt="" /></h2>
+        <div class="row">
+          <input type="text" id="inputBox" placeholder="Add your text" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="listContainer">
+          <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
